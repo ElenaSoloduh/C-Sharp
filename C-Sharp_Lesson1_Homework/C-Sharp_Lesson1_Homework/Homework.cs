@@ -47,7 +47,8 @@ namespace C_Sharp_Lesson1_Homework
         * |   2    | The number doesn't divide to 4  |
         * --------------------------------------------
         */
-            Console.WriteLine((number % 4 == 0) ? "The number divide to 4" : "The number doesn`t divide to 4");
+            var result = number % 4 == 0 ? "The number divide to 4" : "The number doesn`t divide to 4";
+            Console.WriteLine(result);
         }
         public void DayOfWeek(string day)
         {
